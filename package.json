@@ -12,7 +12,7 @@
   ],
   "main": "./lib/json2officexml",
   "dependencies": {
-    "xmlbuilder" : ">= 0.3.1"
+    "xmlbuilder" : "0.4.2"
   },
   "scripts": {
     "test": "for i in tests/test*.js; do node \"$i\"; done"
